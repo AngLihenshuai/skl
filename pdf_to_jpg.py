@@ -15,4 +15,4 @@ for filename in all_files:
         pix = page.get_pixmap(matrix=mat)  # render page to an image
         png_path = "p/" + n + "/" + "pdf-page-" + str(page.number) + ".png"
         pix.save(png_path)
-        print('<img src="https://anglihenshuai.github.io/skl/' + png_path + '">')
+        print('<img src="https://anglihenshuai.github.io/skl/' + png_path + '">')        
